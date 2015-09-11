@@ -35,7 +35,8 @@ wordpress/wp-includes
 
 # Sass cache
 
-styles/.sass-cache
+.sass-cache
+styles/.sass-cache/
 styles/.sass-cache/*
 
 # Generic Plugins
