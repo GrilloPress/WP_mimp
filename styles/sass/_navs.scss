@@ -5,7 +5,6 @@
 
 .navbar {
   border: none;
-  @include box-shadow(0 1px 2px rgba(0,0,0,.3));
 
   &-brand {
     font-size: 24px;
@@ -84,4 +83,27 @@
 .dropdown-menu {
   border: none;
   @include box-shadow(0 1px 4px rgba(0,0,0,.3));
+}
+
+// @template: header.php
+//
+//
+//
+
+#site-header {
+  
+  background-color: $brand-primary;
+  
+  a {
+    
+    color: white;
+    
+  }
+  
+  .site-logo {
+    
+    margin-top: 5px;
+    
+  }
+  
 }
