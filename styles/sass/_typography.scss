@@ -18,3 +18,32 @@ button {
 a {
   @include transition(all 0.2s);
 }
+
+// @template: numerous
+//
+// Blockquotes inside articles with the well class
+// are made a pale blue to make the quote standout
+
+article.well blockquote {
+  
+  background-color: #C9E6F9;
+  
+}
+
+// @template: numerous
+//
+// A heading class that uses the brand colour for background with white text
+// Within a well, it provides the look of another well by using the background colour
+// to createa seperation. It is therefore best used to create the look of multiple wells
+// in a template page
+
+.h-branding {
+  
+  background-color: $brand-primary;
+  color: white;
+  padding: 10px 20px;
+  margin-left: -21px;
+  margin-right: -21px;
+  border-top: 10px solid $body-bg;
+  
+}
