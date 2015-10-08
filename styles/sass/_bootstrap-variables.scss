@@ -1,4 +1,4 @@
-@import url("//fonts.googleapis.com/css?family=Roboto:300");
+@import url("//fonts.googleapis.com/css?family=Roboto:300,400");
 // Base colors
 
 $gray-base:              #000;
@@ -8,11 +8,11 @@ $gray:                   darken(#666, 10%);
 $gray-light:             #bbb;
 $gray-lighter:           lighten($gray-base, 93.5%); // #eee
 
-$brand-primary:         #03A9F4;
-$brand-success:         #4CAF50;
-$brand-info:            #01579B;
-$brand-warning:         #EF6C00;
-$brand-danger:          #e51c23;
+$brand-primary:         #1572B8; // Previous #03A9F4
+$brand-success:         #277590;
+$brand-info:            #03A9F4;
+$brand-warning:         #B61E54;
+$brand-danger:          #6E1D62; 
 $brand-grey:            #90A4AE;
 
 

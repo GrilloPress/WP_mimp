@@ -47,3 +47,21 @@ article.well blockquote {
   border-top: 10px solid $body-bg;
   
 }
+
+
+// @template: numerous (posts, single titles, pages etc. )
+//
+// White text with blue block around it. removes well padding
+//
+
+h1.entry-title {
+  
+  margin-top: -21px;
+  margin-left: -20px;
+  font-size: 35px;
+  margin-right: -20px;
+  background-color: $brand-primary;
+  padding: 20px;
+  color: white;
+  
+}

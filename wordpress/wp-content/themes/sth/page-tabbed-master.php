@@ -102,20 +102,10 @@ get_header(); ?>
                     </li>
                   <?php endforeach; ?>
                 </ul>
-                
-                
-                <?php if (is_page( 'nursing-midwifery' )) :?>
-                <ul class="nav nav-pills nav-stacked">
-                  <li role="presentation" class="nav-list-spacer">
-                    <a href="<?php echo get_home_url() . "/newly-qualified-nurses-midwives/" ;?>" role="tab">Newly Qualified Nurses &amp; Midwives</a>
-                  </li>
-                 </ul>
-                <?php endif ;?>
-               
+           
                 
                 <ul class="nav nav-pills nav-stacked">
                   <li role="presentation" class="nav-list-spacer">
-                    <a href="<?php echo get_home_url() . "/current-vacancies/" ;?>" class="list-group-item-success" alt="Find our current vacancies">Current Vacancies</a>
                   </li>
                 </ul>
               </div>
