@@ -9447,6 +9447,12 @@ h1.entry-title {
   color: white;
 }
 
+/* line 75, ../sass/_typography.scss */
+#mimp-blocks h2 {
+  font-size: 28px;
+  margin-top: 10px;
+}
+
 /* line 6, ../sass/_wordpress.scss */
 .alignleft {
   float: left;
