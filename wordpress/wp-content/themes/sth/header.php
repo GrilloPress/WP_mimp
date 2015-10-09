@@ -50,7 +50,7 @@
             </div>
             <div class="col-md-4 col-xs-10">
               <a href="http://www.sth.nhs.uk/" alt="" target="_blank">
-                <img class="img-responsive site-logo" src="<?php echo get_template_directory_uri() . "/images/logo-white.png"; ?>">
+                <img class="img-responsive site-logo" src="<?php echo get_template_directory_uri() . "/images/logo.gif"; ?>">
               </a>
             </div>
           </div>
