@@ -65,3 +65,18 @@ h1.entry-title {
   color: white;
   
 }
+
+// @template: front-page
+//
+// Reduce size of heading font and margin in mimp-blocks section
+
+#mimp-blocks {
+  
+  h2 {
+    
+    font-size: 28px;
+    margin-top: 10px;
+    
+  }
+  
+}
