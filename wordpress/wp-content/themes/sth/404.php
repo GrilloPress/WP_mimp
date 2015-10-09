@@ -22,11 +22,10 @@ get_header(); ?>
           <h1 class="entry-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'sth' ); ?></h1>
         </header><!-- .entry-header -->
 
-
 				<div class="page-content">
 					<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try a search?', 'sth' ); ?></p>
           
-          <?php get_template_part( 'template-parts/404', 'search' ); ?>
+          <?php get_template_part( 'template-parts/partials/404', 'search' ); ?>
    
 				</div><!-- .page-content -->
 			</section><!-- .error-404 -->
@@ -43,7 +42,7 @@ get_header(); ?>
 		</main><!-- #main -->
       
       <aside class="col-md-4" role="complimentary">
-
+         <?php get_sidebar(); ?>
       </aside>
   </div>
 	</div><!-- #primary -->

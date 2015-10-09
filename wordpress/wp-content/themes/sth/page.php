@@ -21,12 +21,12 @@ get_header(); ?>
      
     <div class="row">
       <main id="main" class="col-md-8" role="main">
-
-			<?php while ( have_posts() ) : the_post(); ?>
         
-        <?php if ( has_post_thumbnail() ){
+         <?php if ( has_post_thumbnail() ){
                 echo get_the_post_thumbnail() ;
                 } ;?>
+        
+			<?php while ( have_posts() ) : the_post(); ?>
         
 				<?php get_template_part( 'template-parts/content', 'page' ); ?>
 
@@ -35,11 +35,8 @@ get_header(); ?>
 		  </main><!-- #main -->
       
       <aside class="col-md-4">
-
-          
-
-        <?php get_template_part( 'partials/content', 'sidebox' ); ?>
         
+  
         <?php get_sidebar(); ?>
         
       </aside>

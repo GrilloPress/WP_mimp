@@ -5,8 +5,6 @@ Template Name: Homepage
 ?>
 
 <?php get_header(); ?>
-			
-
 
 			<div id="content">
 			
@@ -59,7 +57,7 @@ Template Name: Homepage
                   </div>
 
                   <div class="col-md-3 col-sm-6 col-xs-12">
-                    <a href="<?php echo home_url( '/referral-information/' ); ?>">
+                    <a href="<?php echo home_url( '/referrals/' ); ?>">
                       <img src="<?php echo get_template_directory_uri() . '/images/gps.jpg' ;?>" class="hidden-xs" width="100%">
                       <div class="well" id="">
                         <h2>Referral Information</h2>
