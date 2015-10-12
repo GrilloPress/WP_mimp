@@ -72,7 +72,7 @@ Template Name: Homepage
            <section id="featured-pages">
             <div class="container">
               <div class="row">
-                <div class="col-md-9 col-sm-9 col-xs-12">
+                <div class="col-md-9 col-sm-12 col-xs-12">
                   <div class="well">
                     <h2>Featured Services</h2>
                     
@@ -211,9 +211,25 @@ Template Name: Homepage
                   </div>
                 </div>
                 
-                 <div class="col-md-3 col-sm-3 col-xs-12">
+                 <div class="col-md-3 col-sm-12 col-xs-12">
                    <div class="well">
-                    <h2>Sitemap</h2>
+                    <h2>News</h2>
+                     
+                     <ul class="list-unstyled">
+                      <?php
+                      $args = array( 'posts_per_page' => 5 );
+
+                      $myposts = get_posts( $args );
+                      foreach ( $myposts as $post ) : setup_postdata( $post ); ?>
+                        <li>
+                          <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+                        </li>
+                      <?php endforeach; 
+                      wp_reset_postdata();?>
+
+                     </ul>
+                     
+                     
                   </div>
                 </div>
               </div>

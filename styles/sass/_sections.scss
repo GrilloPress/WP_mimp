@@ -88,3 +88,18 @@
   border: none;
   @include box-shadow(0 1px 4px rgba(0,0,0,.3));
 }
+
+
+// @template: frontpage
+//
+// Ensure blocks are similar height, especially when collapsing into .col-sm-6 width
+
+#mimp-blocks {
+  
+  .well {
+    
+    min-height: 170px;
+    
+  }
+  
+}

@@ -9394,6 +9394,11 @@ select.form-control:focus {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
 }
 
+/* line 99, ../sass/_sections.scss */
+#mimp-blocks .well {
+  min-height: 170px;
+}
+
 /* line 1, ../sass/_typography.scss */
 body {
   -webkit-font-smoothing: antialiased;
@@ -9449,8 +9454,23 @@ h1.entry-title {
 
 /* line 75, ../sass/_typography.scss */
 #mimp-blocks h2 {
-  font-size: 28px;
+  font-size: 23px;
   margin-top: 10px;
+}
+
+/* line 90, ../sass/_typography.scss */
+#featured-pages h2 {
+  font-size: 20px;
+  margin-top: 5px;
+}
+/* line 97, ../sass/_typography.scss */
+#featured-pages h4.media-heading {
+  font-size: 15px;
+}
+
+/* line 111, ../sass/_typography.scss */
+#widget-footer h4.widgettitle {
+  color: white;
 }
 
 /* line 6, ../sass/_wordpress.scss */
