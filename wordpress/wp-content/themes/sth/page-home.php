@@ -213,7 +213,7 @@ Template Name: Homepage
                 
                  <div class="col-md-3 col-sm-12 col-xs-12">
                    <div class="well">
-                    <h2>News</h2>
+                    <h2>Recent News</h2>
                      
                      <ul class="list-unstyled">
                       <?php
