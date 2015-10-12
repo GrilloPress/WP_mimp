@@ -24,14 +24,7 @@ get_header(); ?>
             <?php while ( have_posts() ) : the_post(); ?>
             
             <div class="tab-content">
-              <div role="tabpanel" class="tab-pane in fade active" id="home">
-                <?php if ( has_post_thumbnail() ){
-                  
-                echo get_the_post_thumbnail() ;
-  
-                } ;?>
-                
-            
+              <div role="tabpanel" class="tab-pane in fade active" id="home">            
                 <?php get_template_part( 'template-parts/content', 'page' ); ?>
               </div>
                <?php endwhile; // End of parent page loop. ?>
@@ -74,6 +67,15 @@ get_header(); ?>
           </div>
           
           <div class="col-xs-12 col-md-4">
+            <div class="featured-image-sidebar">
+              <?php while ( have_posts() ) : the_post(); ?>
+              <?php if ( has_post_thumbnail() ){
+
+                  echo get_the_post_thumbnail();
+
+                  } ;?>
+              <?php endwhile; // End of parent page loop. ?>
+            </div>
               
               <div class="nav-controls" id="tabbed-nav">
                  <!-- Nav tabs -->

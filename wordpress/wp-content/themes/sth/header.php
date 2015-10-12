@@ -22,6 +22,7 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
 <?php wp_head(); ?>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   		<!-- IE8 fallback moved below head to work properly. Added respond as well. Tested to work. -->
 			<!-- media-queries.js (fallback) -->
 		<!--[if lt IE 9]>

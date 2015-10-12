@@ -8810,6 +8810,13 @@ button.close {
     display: none !important;
   }
 }
+/* line 4, ../sass/_images.scss */
+.featured-image-sidebar img.attachment-post-thumbnail {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
 /* line 1, ../sass/_footers.scss */
 .site-footer {
   background-color: #90A4AE;

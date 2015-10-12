@@ -42,6 +42,7 @@ get_header(); ?>
       </aside>
       
 	  </div><!-- #primary -->
+     
   </div>
 
 <?php get_footer(); ?>

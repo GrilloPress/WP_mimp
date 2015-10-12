@@ -218,6 +218,21 @@ if( !function_exists( "sth_theme_js" ) ) {
 }
 add_action( 'wp_enqueue_scripts', 'sth_theme_js' );
 
+
+add_image_size( 'feat', 600, 400 ); // Soft Crop Mode
+
+
+
+add_filter( 'jetpack_implode_frontend_css', '__return_false' );
+
+// Then, remove each CSS file, one at a time
+function jeherve_remove_all_jp_css() {
+  
+  wp_deregister_style( 'grunion.css' ); // Grunion contact form
+  
+}
+add_action('wp_print_styles', 'jeherve_remove_all_jp_css' );
+
 /**
  * Custom template tags for this theme.
  */
