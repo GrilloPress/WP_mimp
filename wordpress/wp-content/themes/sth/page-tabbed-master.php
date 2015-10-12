@@ -115,9 +115,14 @@ get_header(); ?>
             
             <script>
               
+              // After the results are sorted, it finishes by scrolling the browser to the top of the results id
+            if ( jQuery( window ).width() < 650 ){
+             
               jQuery('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
                  jQuery('html, body').animate({scrollTop:0});
-              })         
+              })  
+              
+            }       
             </script>
           
           </div>
