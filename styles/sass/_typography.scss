@@ -80,3 +80,38 @@ h1.entry-title {
   }
   
 }
+
+// @template: front-page
+//
+// Style and reduce style of featured pages/departments on front page
+
+#featured-pages {
+  
+  h2 {
+    
+    font-size: 20px;
+    margin-top: 5px;
+    
+  }
+  
+  h4.media-heading {
+    
+    font-size: 15px;
+    
+  }
+  
+}
+
+// @template: footer.php
+//
+// 
+
+#widget-footer {
+  
+ h4.widgettitle {
+   
+   color: white;
+   
+ } 
+  
+}
