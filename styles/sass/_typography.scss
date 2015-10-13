@@ -115,3 +115,19 @@ h1.entry-title {
  } 
   
 }
+
+// @template: all posts and pages
+//
+// Reduce .lead margin
+
+.type-page {
+  
+  p.lead {
+    
+    margin-bottom: 15px;
+    
+  }
+  
+}
+
+.type-post {}
