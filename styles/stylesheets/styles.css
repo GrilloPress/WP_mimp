@@ -8816,6 +8816,10 @@ button.close {
   height: auto;
   margin-bottom: 15px;
 }
+/* line 12, ../sass/_images.scss */
+.featured-image-sidebar .img-featured-sidebar {
+  margin-bottom: 15px;
+}
 
 /* line 1, ../sass/_footers.scss */
 .site-footer {
@@ -9234,6 +9238,11 @@ select.form-control:focus {
   border: 1px solid #eee;
 }
 
+/* line 51, ../sass/_buttons.scss */
+.dropdown-menu {
+  min-width: 100%;
+}
+
 /* line 1, ../sass/_alerts.scss */
 .alert {
   border: none;
@@ -9406,6 +9415,37 @@ select.form-control:focus {
   min-height: 170px;
 }
 
+/* line 107, ../sass/_sections.scss */
+.container .jumbotron, .container-fluid .jumbotron {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 6, ../../../.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.3.5.1/assets/stylesheets/bootstrap/_jumbotron.scss */
+  /* line 119, ../sass/_sections.scss */
+  .jumbotron {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  /* line 41, ../../../.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.3.5.1/assets/stylesheets/bootstrap/_jumbotron.scss */
+  /* line 124, ../sass/_sections.scss */
+  .container .jumbotron, .container-fluid .jumbotron {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  /* line 130, ../sass/_sections.scss */
+  .jumbotron h1,
+  .jumbotron .h1 {
+    font-size: 50px;
+  }
+}
 /* line 1, ../sass/_typography.scss */
 body {
   -webkit-font-smoothing: antialiased;
@@ -9459,25 +9499,41 @@ h1.entry-title {
   color: white;
 }
 
-/* line 75, ../sass/_typography.scss */
+/* line 69, ../sass/_typography.scss */
+h2.entry-title {
+  margin-top: -21px;
+  margin-left: -20px;
+  font-size: 35px;
+  margin-right: -20px;
+  background-color: #1572B8;
+  padding: 20px;
+  color: white;
+}
+
+/* line 87, ../sass/_typography.scss */
 #mimp-blocks h2 {
   font-size: 23px;
   margin-top: 10px;
 }
 
-/* line 90, ../sass/_typography.scss */
+/* line 102, ../sass/_typography.scss */
 #featured-pages h2 {
   font-size: 20px;
   margin-top: 5px;
 }
-/* line 97, ../sass/_typography.scss */
+/* line 109, ../sass/_typography.scss */
 #featured-pages h4.media-heading {
   font-size: 15px;
 }
 
-/* line 111, ../sass/_typography.scss */
+/* line 123, ../sass/_typography.scss */
 #widget-footer h4.widgettitle {
   color: white;
+}
+
+/* line 137, ../sass/_typography.scss */
+.type-page p.lead {
+  margin-bottom: 15px;
 }
 
 /* line 6, ../sass/_wordpress.scss */
