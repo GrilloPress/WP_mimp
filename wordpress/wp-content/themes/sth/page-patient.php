@@ -33,7 +33,7 @@ get_header(); ?>
           <!-- Single button -->
           <div class="btn-group">
             <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Department &amp; Service <span class="caret"></span>
+              Departments &amp; Services <span class="caret"></span>
             </button>
             <ul class="dropdown-menu">
         
@@ -51,9 +51,7 @@ get_header(); ?>
         <?php endwhile; else : ?>
           <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
         <?php endif; ?>
-              
-              <li role="separator" class="divider"></li>
-              <li><a href="<?php echo home_url( '/departments-and-services/' ); ?>">All Departments &amp; Services</a></li>
+
             </ul>
           </div>
 

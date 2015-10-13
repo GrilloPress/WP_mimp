@@ -9446,6 +9446,15 @@ select.form-control:focus {
     font-size: 50px;
   }
 }
+/* line 138, ../sass/_sections.scss */
+.well.well-preview {
+  min-height: 153px;
+}
+/* line 142, ../sass/_sections.scss */
+.well.well-preview h4 {
+  font-size: 20px;
+}
+
 /* line 1, ../sass/_typography.scss */
 body {
   -webkit-font-smoothing: antialiased;
